@@ -8,7 +8,7 @@ const apiRouter = Router();
 apiRouter.get("/ping", (req: Request, res: Response) =>
   res.status(200).json({
     status: true,
-    msg: `Server ${APP_VERSION} up and running..`,
+    msg: `Server v${APP_VERSION} up and running..`,
   })
 );
 
