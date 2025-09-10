@@ -36,7 +36,7 @@ By combining **Diffie-Hellman** (for key exchange) and **AES** (for encryption),
 
 ## 🛠️ Tech Stack
 
-- **Frontend:** Vue + Typescript + TailwindCSS + DaisyUI (Inspired from [ARC](http://github.com/ARneshRC))
+- **Frontend:** Vue + Typescript + TailwindCSS + DaisyUI (Inspired from [ArneshRC](http://github.com/ArneshRC))
 
 - **Backend:** Node.js + Express + Typescript
 - **Crypto:** Native `crypto` (Node) + Web Crypto API (Browser)
