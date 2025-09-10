@@ -5,5 +5,5 @@ const dataRouter = Router();
 
 dataRouter
   .post("/", DataController.handleDataIngress)
-  .get("/", DataController.handleDataEgress);
+  .post("/get", DataController.handleDataEgress);
 export { dataRouter };

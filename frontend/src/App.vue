@@ -118,8 +118,9 @@ const handleFormSubmit = async () => {
 
   let formDataObj: IFormData = {}
 
-  for (let entry of formData.value)
-    formDataObj[entry[0] as string] = formDataObj[entry[1] as string]
+  for (let entry of formData.value) {
+    formDataObj[entry[0] as string] = entry[1]
+  }
 
   const { iv, cipherText } = await aesEncrypt(
     handshakeData.finalEncryptionKey!,

@@ -17,6 +17,8 @@ export class SessionRepo {
       })
       .returning();
 
+  static getAllSessions = async () => await db.select().from(sessions);
+
   static getBySessionId = async (sessionId: string) =>
     await db.select().from(sessions).where(eq(sessions.sessionId, sessionId));
 
