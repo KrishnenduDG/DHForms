@@ -8,7 +8,7 @@
     "watch:compile": "tsc --watch",
     "dev": "node --env-file .env --watch build/index.js",
     "prod": "node build/index.js",
-    "db:generate": "drizzle-kit generate",
+    "db:generate": "drizzle-kit generatepackage",
     "db:migrate": "drizzle-kit migrate"
   },
   "keywords": [],
@@ -25,6 +25,7 @@
   "dependencies": {
     "cors": "^2.8.5",
     "drizzle-orm": "^0.44.5",
+    "express": "^5.1.0",
     "pg": "^8.16.3",
     "uuid": "^11.1.0"
   }
