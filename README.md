@@ -48,7 +48,7 @@ By combining **Diffie-Hellman** (for key exchange) and **AES** (for encryption),
 Clone the repo:
 
 ```bash
-git clone https://github.com/your-username/dh-forms.git
+git clone https://github.com/KrishnenduDG/DHForms
 cd dh-forms
 ```
 
